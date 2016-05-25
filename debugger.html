@@ -1,0 +1,23 @@
+
+
+<html>
+<head>
+<title>Test</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#click").on('click', function(){
+   debugger;
+   var test = $("#test").val();
+   console.log(test);
+  });
+});
+</script>
+</head>
+<body>
+ <input type="text" id="test">
+ <span id="click">Click</span>
+</body>
+</html>
+
+
